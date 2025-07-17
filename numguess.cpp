@@ -22,7 +22,7 @@ int returnInt() {
         if(s[0]=='-'){
             isvalidint=false;
             cout<<"Try to guess only positive numbers"<<endl;
-            break;
+            continue;
         }
         // Allow leading + or - sign
         if ( s[0] == '+') {

@@ -43,6 +43,9 @@ int main(){
                 ch = _getch();
                 if (ch == 27){
                     running = false;
+            }else{
+                roll = distrib(gen);
+                tries=5;
             }
 
                 
