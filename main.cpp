@@ -45,7 +45,7 @@ int main(){
                     running = false;
             }
 
-                return 0;
+                
             }else{
                 cout<<"WRONG GUESS HAHAHHAHAH!"<<endl;
                 tries--;
@@ -58,7 +58,8 @@ int main(){
 
         };
         cout<<"YOU LOST HAHAHHAHAHA"<<endl;
-        cout<<"I WILL THINK OF ANOTHER NUMBER NOW (press [ESCAPE] to exit game or [ENTER] to continue playing)"<<endl;
+        cout<<"The number was: "<<roll<<endl;
+        cout<<"I WILL THINK OF ANOTHER NUMBER NOW (press [ESCAPE] to exit game or any other key to continue playing)"<<endl;
             ch = _getch();
             if (ch == 27){
                 running = false;
