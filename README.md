@@ -75,7 +75,7 @@ You only have 4 left
 
 ## 📄 License
 
-MIT License (optional — add one if you want)
+MIT License
 
 ---
 
